@@ -1,0 +1,37 @@
+.input {
+  height: 50px;
+  width: 80%;
+  border-radius: 12px;
+  background-color: rgb(192, 192, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background: none;
+  border: none;
+  flex: 1;
+  margin-left: 12px;
+}
+input:focus {
+  outline: none;
+}
+.button {
+  margin-right: 8px;
+  background-color: rgb(214, 213, 213);
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+}
+.todo-item {
+  height: 20px;
+  width: 80%;
+  display: flex;
+  margin: 5px 3px;
+  padding: 5px;
+  background-color: rgb(211, 210, 210);
+  border-radius: 5px;
+}
